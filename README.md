@@ -31,18 +31,17 @@ https://wx.aodao.com.cn
 2.1二维码静态模式
 
 参数：
-
-
 orderid 必传获取到openid.time=>orderid 
 
 未获取openid ,username/mobile.time=>orderid
 
 name 必传 
-name的参数值有storid 	门店id
-     goodsid 商品ID
-goodsid 商品组ID 
-groupid 商品分类ID
-diyfrom 自定义页面ID
+
+name的参数值有storid 门店id
+             goodsid 商品ID
+             goodsid 商品组ID 
+             groupid 商品分类ID
+             diyfrom 自定义页面ID
 
 fee 必传 收款金额
 
@@ -65,7 +64,7 @@ ak ! = 0 贩卖机模式
 
 URL：URL/?v=1&c=orderid&d=name&f=fee&ak=ak&t=time
 c = orderid
-d = name
+d = name        
 f  = fee
 ak  = ak
 t  = time
@@ -86,6 +85,7 @@ v=1 明文模式
 v=2 密钥签证模式
 v=3	接口模式
 ak ! = 0 贩卖机模式
+
 2.4.2.每个参数值均为动态值，用户进入预设的H5页面，选择预设门店或商品组下商品ID，点支付直接呼起输密界面
 
 2.4.3.贩卖机使用二维码传ak模式
